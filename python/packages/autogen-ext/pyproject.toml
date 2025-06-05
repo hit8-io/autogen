@@ -113,9 +113,6 @@ semantic-kernel-ollama = [
     "semantic-kernel[ollama]>=1.17.1",
 ]
 
-semantic-kernel-onnx = [
-    "semantic-kernel[onnx]>=1.17.1",
-]
 
 semantic-kernel-anthropic = [
     "semantic-kernel[anthropic]>=1.17.1",
@@ -139,7 +136,7 @@ http-tool = [
 ]
 
 semantic-kernel-all = [
-    "semantic-kernel[google,hugging_face,mistralai,ollama,onnx,anthropic,usearch,pandas,aws,dapr]>=1.17.1",
+    "semantic-kernel[google,hugging_face,mistralai,ollama,anthropic,usearch,pandas,aws,dapr]>=1.17.1",
 ]
 
 rich = ["rich>=13.9.4"]
